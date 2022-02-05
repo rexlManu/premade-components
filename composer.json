@@ -18,7 +18,8 @@
         "laravel/telescope": "^4.7",
         "laravel/tinker": "^2.5",
         "pestphp/pest": "^1.21",
-        "pestphp/pest-plugin-laravel": "^1.2"
+        "pestphp/pest-plugin-laravel": "^1.2",
+        "tightenco/ziggy": "^1.4"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

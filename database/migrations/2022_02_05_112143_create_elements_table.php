@@ -18,6 +18,8 @@ class CreateElementsTable extends Migration
             $table->id();
             $table->foreignIdFor(Category::class)->constrained()->cascadeOnDelete();
             $table->string('name');
+            $table->string('component');
+            $table->string('source');
             $table->timestamps();
         });
     }

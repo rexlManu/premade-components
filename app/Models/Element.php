@@ -9,7 +9,7 @@ class Element extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name'];
+    protected $fillable = ['category_id', 'name', 'component', 'source'];
 
     public function category()
     {
